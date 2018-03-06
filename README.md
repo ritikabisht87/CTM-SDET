@@ -23,3 +23,21 @@ Here's the explanation of the components
     * Support - Contains support files if any 
         * env.rb - Tells what environment to use, drives etc
     * Compare_the_market.feature - Explanation of the tests written in plain english
+    
+    
+   ## Environment Requirements
+     
+    * OS - Linux/Mac-OS
+    * Ruby
+    * Bundler
+  
+  ## Install dependencies
+      
+     * bundle install
+     
+ ## Running tests
+    
+    * Cucumber features
+
+This should run all the features.
+     
