@@ -1,0 +1,11 @@
+require 'capybara'
+require 'capybara/dsl'
+require 'capybara/cucumber'
+require 'site_prism'
+
+Capybara.default_driver = :selenium
+Capybara.register_driver :selenium do |app|
+  Capybara::Selenium::Driver.new(app, :browser => :firefox)
+end
+
+Capybara.run_server = false
